@@ -4,7 +4,7 @@ angular.module('psUploadApp')
   .directive('ngUploadFile', [function () {
           return {
         restrict: 'E',
-        templateUrl: 'scripts/directives/templates/fileForm.html',
+        templateUrl: 'views/templates/fileForm.html',
         scope: {
           allowed: '@',
           url: '@',

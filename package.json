@@ -38,5 +38,11 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "compression": "^1.6.0",
+    "express": "^3.*",
+    "gzippo": "^0.2.0",
+    "morgan": "^1.6.1"
   }
 }
